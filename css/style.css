@@ -83,4 +83,17 @@ body {
   text-decoration: none;
   padding: 8px 15px;
   background-color: hsl(0deg, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.sedans .card-link {
+  color: hsl(31deg, 77%, 52%);
+}
+
+.suvs .card-link {
+  color: hsl(184deg, 100%, 22%);
+}
+
+.luxury .card-link {
+  color: hsl(179deg, 100%, 13%);
 }

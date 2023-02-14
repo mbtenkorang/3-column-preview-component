@@ -97,4 +97,23 @@ body {
     padding: 8px 15px;
     // border: 1px;
     background-color: $verylightgray;
+    font-family: $lexendDeca;
+}
+
+.sedans {
+    .card-link {
+        color: $brightorange;
+    }
+}
+
+.suvs {
+    .card-link {
+        color: $darkcyan;
+    }
+}
+
+.luxury {
+    .card-link {
+        color: $verydarkcyan
+    }
 }
