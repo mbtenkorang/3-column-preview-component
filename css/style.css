@@ -22,6 +22,7 @@ body {
   height: 100%;
   margin: auto;
   padding: 2rem 0;
+  background-color: hsl(0deg, 0%, 95%);
 }
 
 .container {
@@ -78,7 +79,7 @@ body {
 .card-link {
   border-radius: 19px;
   text-decoration: none;
-  padding: 8px 15px;
+  padding: 10px 1rem;
   background-color: hsl(0deg, 0%, 95%);
   font-family: "Lexend Deca", sans-serif;
 }
@@ -93,4 +94,18 @@ body {
 
 .luxury .card-link {
   color: hsl(179deg, 100%, 13%);
+}
+
+/*Media Query*/
+@media screen and (min-width: 900px) {
+  body {
+    height: 100vh;
+  }
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 80%;
+    height: initial;
+  }
 }
