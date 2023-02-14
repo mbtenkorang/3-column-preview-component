@@ -51,9 +51,6 @@ body {
 .container .card.sedans {
   background-color: hsl(31deg, 77%, 52%);
 }
-.container .card.sedans .card-logo {
-  background-color: hsl(31deg, 77%, 52%);
-}
 .container .card.suvs {
   background-color: hsl(184deg, 100%, 22%);
 }
