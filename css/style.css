@@ -77,3 +77,10 @@ body {
   color: hsla(0deg, 0%, 100%, 0.75);
   font-size: 15px;
 }
+
+.card-link {
+  border-radius: 19px;
+  text-decoration: none;
+  padding: 8px 15px;
+  background-color: hsl(0deg, 0%, 95%);
+}

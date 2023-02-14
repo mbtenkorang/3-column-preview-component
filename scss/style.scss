@@ -90,3 +90,11 @@ body {
     color: $transparentwhite;
     font-size: $regularFontSize;
 }
+
+.card-link {
+    border-radius: 19px;
+    text-decoration: none;
+    padding: 8px 15px;
+    // border: 1px;
+    background-color: $verylightgray;
+}
